@@ -87,6 +87,7 @@ def enterCompanyNumberOfEmployee(context,strCompanyEmpolyee):
 def userClickSaveButton(context):
      context.driver.find_element_by_xpath("//span[contains(text(),'Save')]").click()
      time.sleep(5)
+     time.sleep(10)
 
 @then(u'user searches for added company name "{strCompanynameN}"')
 def getAddedCompanyName(context,strCompanynameN):
